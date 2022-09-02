@@ -1,7 +1,7 @@
 ;*******************************************************************************
 ; UFSC- Universidade Federal de Santa Catarina
-; Projeto: primeiro exemplo de programa??o assembler para PIC
-; Autor: Roderval Marcelino
+; Projeto: primeiro exemplo de programação assembler para PIC
+; Autor: July Chassot
 ; Pisca Led com delay
 ;*******************************************************************************
 
@@ -12,7 +12,7 @@
   __CONFIG  _CP_OFF & _CPD_OFF & _DEBUG_OFF & _LVP_OFF & _WRT_OFF & _BODEN_OFF & _PWRTE_OFF & _WDT_OFF & _XT_OSC
 
   
-;***** defini??o de Vari?veis  *****************************
+;***** definição de Variaveis  *****************************
 ;cria constantes para o programa
 
   	cblock 0x20
