@@ -1,6 +1,6 @@
 ;*******************************************************************************
 ; UFSC- Universidade Federal de Santa Catarina
-; Projeto: primeiro exemplo de programação assembler para PIC
+; Projeto: primeiro exemplo de programaÃ§Ã£o assembler para PIC
 ; Autor: Roderval Marcelino
 ; Pisca Led sem delay
 ;*******************************************************************************
@@ -20,19 +20,19 @@
 inicio:
 	clrf	PORTB		; Inicializa o Port B com zero
 
-	banksel	TRISA		; Seleciona banco de memória 1
+	banksel	TRISA		; Seleciona banco de memÃ³ria 1
 	
 	movlw	0x00
 	movwf	TRISB		; Configura PortB como sa?da
 	
 	movlw	0x00
-	movwf	OPTION_REG	; Configura Opições:
+	movwf	OPTION_REG	; Configura OpiÃ§Ãµes:
 				; Pull-Up habilitados.
 				; Interrup??o na borda de subida do sinal no pino B0.
 				; Timer0 incrementado pelo oscilador interno.
 				; Prescaler WDT 1:1.
 				; Prescaler Timer0 1:2.
-	banksel PORTA		; Seleciona banco de memória 0.
+	banksel PORTA		; Seleciona banco de memÃ³ria 0.
 
 ;*********************** Loop principal ****************************************
 loop: 
