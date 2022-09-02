@@ -1,7 +1,7 @@
 ;*******************************************************************************
 ; UFSC- Universidade Federal de Santa Catarina
-; Projeto: primeiro exemplo de programação assembler para PIC
-; Autor: Roderval Marcelino
+; Projeto: Primeiro exemplo de programação assembler para PIC
+; Autor: July Chassot
 ; Pisca Led sem delay
 ;*******************************************************************************
 
